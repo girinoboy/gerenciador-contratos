@@ -1,4 +1,4 @@
-package db;
+package br.com.config;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

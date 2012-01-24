@@ -1,6 +1,10 @@
+package br.com.config;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
+
+import br.com.dto.Event;
+import br.com.dto.MockObject;
 
 public class HibernateUtil {
 

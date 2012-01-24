@@ -1,3 +1,5 @@
+package br.com.config;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Date;
@@ -9,10 +11,13 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
+import br.com.dto.Event;
+import br.com.dto.MockObject;
+
 
 public class Conexao {
 
-	private Connection conectar() throws Exception{
+	public Connection conectar() throws Exception{
 		Connection conn = null;
 		try{
 			Class.forName("org.hsqldb.jdbcDriver");
