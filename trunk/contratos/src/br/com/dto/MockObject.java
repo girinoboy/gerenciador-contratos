@@ -1,3 +1,4 @@
+package br.com.dto;
 import java.io.Serializable;
  
 import javax.persistence.Column;
@@ -9,7 +10,7 @@ import javax.persistence.Table;
 import javax.persistence.Version;
  
 @Entity
-@Table(name = "mock_objects", schema = "prontscm")
+@Table(name = "mock_objects")
 public class MockObject implements Serializable
 {
     @Id
